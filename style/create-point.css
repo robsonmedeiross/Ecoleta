@@ -1,0 +1,166 @@
+
+
+#page-cadastro{
+    width: 90%;
+    height: 1355px;
+
+    margin: auto;
+    
+}
+
+#page-cadastro header {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+#page-cadastro header a {
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+#page-cadastro header a span {
+    background-image: url(/assets/icones/arrow-left.svg);
+    display: flex;
+    
+    width: 20px;
+    height: 24px;
+    margin-right: 10px;
+}   
+
+#page-cadastro form {
+    width: 60%;
+    height: 85%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 2px solid #34cb79;
+
+    background-color: white;
+    padding: 40px;
+}
+
+#page-cadastro form h1 {
+    font-size: 36px;
+}
+
+#page-cadastro form fieldset {
+    border: 0;
+    margin-top: 40px;
+}
+
+#page-cadastro form .field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+#page-cadastro form .field-group{
+    display: flex;
+}
+
+#page-cadastro form .field-group .field + .field {
+    margin-left: 20px;
+}
+
+#page-cadastro form input, form select {
+    height: 56px;
+    margin-top: 10px;
+    padding: 16px 24px;
+    border: 0;
+    background-color: #F0F0F5;
+    border-radius: 10px;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#page-cadastro form label {
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C6C80;
+    margin-left: 5px;
+}
+
+#page-cadastro div#itens-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 10px;
+    
+
+}
+
+#page-cadastro div#itens-grid li {
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+    padding: 15px 16px 25px;
+}
+
+#page-cadastro div#itens-grid li:hover {
+    background: #e1faec;
+}
+
+#page-cadastro div#itens-grid li img {
+    width: 64px;
+}
+
+#page-cadastro div#itens-grid span {
+    color: var(--primary-color);
+    margin-top: 25px;
+}
+
+#page-cadastro div#itens-grid li.selected{
+    background: #e1faec;
+    border: 2px solid #34cb79;
+    margin: 8px;
+}
+
+#page-cadastro button {
+    width: 256px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 60px;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+
+    cursor: pointer;    
+}
+
+#page-cadastro div#itens-grid span,
+#page-cadastro div#itens-grid img {
+    pointer-events: none;
+} 
+
+
+
+
+
+
+
+
+

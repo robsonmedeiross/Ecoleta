@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/create-point.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+   
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="page-cadastro">
+        <header>
+            <img src="/assets/icones/logo.svg" alt="icone">
+            <a href="index.html">
+                <span></span>
+                <strong>Voltar para Home</strong>
+            </a>
+        </header>
+
+        <form >
+            <h1>Cadastro de ponto de coleta</h1>
+            <fieldset>
+                <legend><h2>Dados da entidade</h2></legend>
+
+                <div class="field">
+                    <label for="name">Nome da entidade</label>
+                    <input type="text" value="" name="name" required>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Endereço</label>
+                        <input type="text" value="" name="address" required>
+                    </div>    
+                    <div class="field">
+                        <label for="address2">Número/complemento</label>
+                        <input type="text" name="address2" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="uf">Estado</label>
+                        <select name="uf" required>
+                            <option value="0">Selecionar estado</option>
+                        </select>
+                        <input type="hidden" name="state">
+                    </div>
+                    <div class="field">
+                        <label for="city">Cidade</label>
+                        <select name="city" disabled required>
+                            <option value="">Selecionar</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Itens de coleta</h2></legend>
+
+                <div id="itens-grid">
+                    <li data-id="1" >
+                        <img sizes="15px" src="/assets/icones/lampadas.svg" alt="Icone de lampada" >
+                        <span>Lampadas</span>
+                    </li>
+
+                    <li data-id="2">
+                        <img src="/assets/icones/baterias.svg" alt="icone de baterias" >
+                        <span>Baterias e Pilhas</span>
+                    </li>
+
+                    <li data-id="3">
+                        <img src="/assets/icones/papeis-papelao.svg" alt="icone de papeis" >
+                        <span>Papeis e Papelão</span>
+                    </li>
+
+                    <li data-id="4">
+                        <img src="/assets/icones/eletronicos.svg" alt="icone de eletronicos" >
+                        <span>Resíduos Eletronicos</span>
+                    </li>
+
+                    <li data-id="5">
+                        <img src="/assets/icones/organicos.svg" alt="icones de organicos" >
+                        <span>Resíduos Organicos</span>
+                    </li>
+
+                    <li data-id="6">
+                        <img src="/assets/icones/oleo.svg" alt="Icone de óleo de cozinha" >
+                        <span>óleo de Cozinha</span>
+                    </li>
+                </div>
+
+                <input type="hidden" name="itens" value="">
+
+            </fieldset>
+            
+            <button onclick="test()" >Cadastrar pontos de coleta</button>
+        </form>
+    </div>
+
+    <script src="/scripts/intro.js"></script>
+</body>
+</html>
