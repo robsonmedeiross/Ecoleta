@@ -9,6 +9,8 @@ Ecoleta
 
 Ecoleta é um sistema de cadastro de empresas e entidades de coleta seletiva e também de busca desses pontos de coletas. Sendo assim, conectando empresas e as pessoas que necessitam desse serviço de coleta seletiva.
 
+Projeto foi desenvolvido durante a NLW - Next Level Week oferecida pela [Rocketseat](https://github.com/rocketseat-education). O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+
 <h4 align="center"> 
 	🚧 Status 🚀: Em construção. 🚧
 </h4>
