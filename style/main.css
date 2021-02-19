@@ -26,3 +26,17 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
 }
+
+div.title {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    font-size: 48px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title span{
+    margin-left: 15px;
+}

@@ -26,6 +26,10 @@
 }
 
 #page-home header a{
+    
+}
+
+#page-home header a{
     display: flex;
     justify-content: center;
     align-items: center;
