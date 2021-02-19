@@ -37,7 +37,7 @@ Demonstração da aplicação
 ⚡
 =================
 
-<p><a href="https://goofy-hawking-7d1645.netlify.app/" >Link da aplicaçãoy</a></p>
+<p><a href="https://goofy-hawking-7d1645.netlify.app/" >Link da aplicação</a></p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/50956cd7-512a-425e-be39-16d0d7edd68b/deploy-status)](https://app.netlify.com/sites/goofy-hawking-7d1645/deploys)
 
