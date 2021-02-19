@@ -7,7 +7,7 @@ Ecoleta
 
 #### Descrição do projeto
 
-Ecoleta é um sistema de cadastro de empresas e entidades de coleta seletiva e tambem de busca desses pontos de coletas. Sendo assim, conectando as empresas e as pessoas que necessitam do serviço de coleta seletiva.
+Ecoleta é um sistema de cadastro de empresas e entidades de coleta seletiva e também de busca desses pontos de coletas. Sendo assim, conectando empresas e as pessoas que necessitam desse serviço de coleta seletiva.
 
 <h4 align="center"> 
 	🚧 Status 🚀: Em construção. 🚧
@@ -41,7 +41,7 @@ Demonstração da aplicação
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/50956cd7-512a-425e-be39-16d0d7edd68b/deploy-status)](https://app.netlify.com/sites/goofy-hawking-7d1645/deploys)
 
-![Gif - Ecoleta](Gif - Ecoleta.gif)
+![Gif - Ecoleta](https://github.com/robsonmedeiross/Assets-git/blob/main/Gif%20-%20Ecoleta.gif)
 
 Como rodar o projeto 
 🚀
