@@ -10,31 +10,27 @@
     width: 90%;
     height: 100%;
     max-width: 1100px;  
-    
     margin: auto;
-
     display: flex;
     flex-direction: column;
 }
 
 #page-home header{
     margin-top: 40px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#page-home header a{
+#page-home header a.link{
     display: flex;
     justify-content: center;
     align-items: center;
     color:var(--title-color);
 }
 
-#page-home header a span{
+#page-home header a.link span{
     display: flex;
-    
     background: url(/assets/icones/arrow-right.svg);
     width: 20px;
     height: 24px;
@@ -64,14 +60,11 @@
     width: 100%;
     max-width: 360px;
     height: 72px;
-
     border-radius: 10px;
     background-color: var(--primary-color);
     margin-top: 40px;
-
     display: flex;
     align-items: center;
-
     transition: 400ms;
 }
 
@@ -88,12 +81,9 @@
 #page-home main a span{
     width: 72px;
     height: 72px;
-
     background-color: rgba(0, 0, 0, 0.08);
-
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
     display: flex;
     align-items: center;
     justify-content: center;

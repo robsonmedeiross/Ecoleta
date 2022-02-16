@@ -8,7 +8,7 @@
         text-align: center;
     }
 
-    #page-home header a {
+    #page-home header a.link {
         position: absolute;
         bottom: 48px;
         left: 50%;

@@ -14,13 +14,13 @@
     margin-top: 40px;
 }
 
-#page-cadastro header a {
+#page-cadastro header a.link {
     display: flex;
     align-items: center;
     color: var(--title-color);
 }
 
-#page-cadastro header a span {
+#page-cadastro header a.link span {
     background-image: url(/assets/icones/arrow-left.svg);
     display: flex;
     

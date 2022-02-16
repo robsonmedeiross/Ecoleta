@@ -7,13 +7,11 @@ body::after{
     left: 0;
     right: 0;
     z-index: -1;
-   
 }
 
 #page-search{
     width: 90%;
     height: 100%;
-
     margin: auto;
 }
 
@@ -22,21 +20,19 @@ body::after{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin: auto;
     margin-top: 40px;
 }
 
-#page-search header a {
+#page-search header a.link {
     display: flex;
     align-items: center;
     color: var(--title-color);
 }
 
-#page-search header a span {
+#page-search header a.link span {
     background-image: url(/assets/icones/arrow-left.svg);
     display: flex;
-    
     width: 20px;
     height: 24px;
     margin-right: 10px;
@@ -44,29 +40,24 @@ body::after{
 
 #page-search main {
     margin: 48px;
-
 }
 
 #page-search main h4 {
     font-weight: normal;
     font-family: roboto, sans-serif;
-
     margin-bottom: 32px;
 }
 
 #page-search main .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     gap: 24px;
 }
 
 #page-search main .card img {
     width: 100%;
     height: 150px;
-
-   object-fit: cover;
-
+    object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
 
@@ -79,20 +70,16 @@ body::after{
 
 #page-search main .card h3 {
     margin: 24px 0;
-
     font-family: roboto;
     font-style: normal;
     font-weight: bold;
-
     font-size: 24px;
     line-height: 34px;
-
     color: var(--primary-color);
 }
 
 #page-search main .card p{
     font-size: 16px;
     line-height: 26px;
-
     color: #6c6c80;
 }

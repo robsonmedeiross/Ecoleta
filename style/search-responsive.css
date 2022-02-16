@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+    #page-cadastro form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    #page-cadastro {
+        height: auto;
+    }
+
+    #page-cadastro form {
+        height: 100%;
+        margin-bottom: 80px;
+    }
+
+    #page-cadastro form .field-group{
+        flex-direction: column;
+    }
+
+    #page-cadastro form .field-group .field + .field {
+        margin-left: 0px;
+    }
+
+    #page-cadastro div#itens-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 620px) {
+    #page-cadastro header {
+        flex-direction: column-reverse;
+    }
+
+    #page-cadastro header a {
+        margin-left: auto;
+        margin-bottom: 40px;
+    }
+
+    #page-cadastro button {
+        margin: 40px auto 40px;
+    }
+}
+
+@media (max-width: 500px){
+    #page-cadastro form {
+        width: 100%;
+    }
+
+    #page-cadastro div#itens-grid {
+        grid-template-columns: 1fr;
+    }
+}
