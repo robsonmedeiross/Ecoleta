@@ -2,16 +2,13 @@
     background: #0e0a14ef;
     height: 100vh;
     width: 100vw;
-
     position: fixed;
     top: 0;
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: 400ms;
+    padding: 40px;
 }
 
 #modal .content{
@@ -28,38 +25,31 @@
 
 #modal .header a {
     background-image: url(../assets/icones/x.svg);
-
     width: 20px;
     height: 20px;
     display: flex;
-
     font-size: 0.01px;
 }
 
 #modal .header h1{
     color: white;
     font-size: 36px;
-
     line-height: 42px;
-    
 }
 
 #modal form label{
     font-size: 14px;
     line-height: 16px;
-
     display: block;
     margin-bottom: 8px;
 }
 
 #modal  form .field {
     display: flex;
-
 }
 
 #modal form input{
     flex: 1;
-
     background-color: #f0f0f5;
     border-radius: 10px 0 0 10px;
     border: 0;
@@ -71,11 +61,9 @@
 #modal form button{
     width: 72px;
     height: 72px;
-
     border-radius: 0 10px 10px 0;
     background-color: var(--primary-color);
     border: 0;
-
     cursor: pointer;
 }
 
@@ -87,7 +75,25 @@
     display: none;
 }
 
+@media (max-width: 380px) {
+    #modal form .field{
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #modal form input {
+        flex: none;
+        width: 100%;
+        height: 72px;
+        border-radius: 10px;
+    }
+
+    #modal form button {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+}
 
 
 
