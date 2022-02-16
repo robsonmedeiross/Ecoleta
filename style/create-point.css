@@ -124,6 +124,10 @@ form select {
     margin: 8px;
 }
 
+#page-cadastro .button {
+    display: flex;
+}
+
 #page-cadastro button {
     width: 256px;
     height: 56px;

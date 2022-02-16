@@ -38,8 +38,7 @@
     }
 
     #page-cadastro button {
-        margin-left: 50%;
-        transform: translate(-50%);
+        margin: 40px auto 40px;
     }
 }
 
