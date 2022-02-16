@@ -1,53 +1,38 @@
-@media (max-width: 1024px) {
-    #page-cadastro form {
-        width: 80%;
-    }
-}
-
 @media (max-width: 768px) {
-    #page-cadastro {
-        height: auto;
-    }
-
-    #page-cadastro form {
-        height: 100%;
-        margin-bottom: 80px;
-    }
-
-    #page-cadastro form .field-group{
-        flex-direction: column;
-    }
-
-    #page-cadastro form .field-group .field + .field {
-        margin-left: 0px;
-    }
-
-    #page-cadastro div#itens-grid {
+    #page-search main .cards {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 620px) {
-    #page-cadastro header {
+    body::after{
+        position: absolute;
+        height: 60rem;
+    }
+
+    #page-search header {
         flex-direction: column-reverse;
     }
 
-    #page-cadastro header a {
+    #page-search header a {
         margin-left: auto;
         margin-bottom: 40px;
     }
 
-    #page-cadastro button {
+    #page-search button {
         margin: 40px auto 40px;
+    }
+
+    #page-search main {
+        margin: 20px;
     }
 }
 
-@media (max-width: 500px){
-    #page-cadastro form {
-        width: 100%;
+@media (max-width: 480px){
+    #page-search main .cards {
+        grid-template-columns: 1fr;
+        gap: 60px;
     }
 
-    #page-cadastro div#itens-grid {
-        grid-template-columns: 1fr;
-    }
+   
 }
