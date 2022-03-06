@@ -32,8 +32,9 @@ Features
 =================
 
 - [x] Cadastro de empresas
+- [x] mobile/resposive
 - [ ] busca de pontos
-- [ ] mobile/resposive
+
 
 Demonstração da aplicação 
 ⚡
